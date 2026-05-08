@@ -1,6 +1,7 @@
 package com.example.a5thchapter;
 
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import androidx.activity.EdgeToEdge;
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         listView = findViewById(R.id.ListView);
+        ArrayAdapter ad = new ArrayAdapter(this, android.R.layout.simple_list_item_1);
 
     }
 }
