@@ -26,7 +26,9 @@ public class MainActivity extends AppCompatActivity {
         // ArrayAdapter ad = new ArrayAdapter(this, android.R.layout.simple_list_item_1,arr);
         // listView.setAdapter(ad);
 
-
         //using our custome adpater
+
+        PremAdpator pd = new PremAdpator(this,R.layout.prem_layout,Arr);
+        listView.setAdapter(pd);
     }
 }
