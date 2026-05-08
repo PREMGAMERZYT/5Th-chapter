@@ -32,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
         // Premadpater2 pd2 = new Premadpater2(this,R.layout.prem_layout2,Arr);
         // listView.setAdapter(pd2);
 
+        PremLayout pd = new PremLayout(this,R.layout.prem_layout,Arr);
+        listView.setAdapter(pd);
+
 
     }
 }
