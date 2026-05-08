@@ -12,7 +12,10 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
 
     ListView listView;
+
+    //this array is data store
     String arr[] = {"Prem","hello","chetan","Spoorthi"};
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
