@@ -15,14 +15,15 @@ public class MainActivity extends AppCompatActivity {
     ListView listView;
 
     //this array is data source
-    String arr[] = {"Prem","hello","chetan","Spoorthi"};
+    String arr[] = {"Prem","hello","chetan","Spoorthi","sister"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         listView = findViewById(R.id.ListView);
-        ArrayAdapter ad = new ArrayAdapter(this, android.R.layout.simple_list_item_1);
+        ArrayAdapter ad = new ArrayAdapter(this, android.R.layout.simple_list_item_1,arr);
+        listView.setAdapter(ad);
 
     }
 }
