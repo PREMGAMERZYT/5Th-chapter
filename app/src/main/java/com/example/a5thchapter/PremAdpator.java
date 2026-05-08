@@ -26,6 +26,7 @@ public class PremAdpator extends ArrayAdapter<String> {
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+
         return super.getView(position, convertView, parent);
     }
 }
