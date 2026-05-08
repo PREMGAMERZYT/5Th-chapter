@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     ListView listView;
 
     //this array is data source
-    String arr[] = {"Prem","hello","chetan","Spoorthi","sister"};
+    String Arr[] = {"Prem","hello","chetan","Spoorthi","sister"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
