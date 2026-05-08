@@ -22,13 +22,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         listView = findViewById(R.id.ListView);
-        //using out in built adpater
+        // using out in built adpater
         // ArrayAdapter ad = new ArrayAdapter(this, android.R.layout.simple_list_item_1,arr);
         // listView.setAdapter(ad);
 
         //using our custome adpater
 
-        PremAdpator pd = new PremAdpator(this,R.layout.prem_layout,Arr);
-        listView.setAdapter(pd);
+        // PremAdpator pd = new PremAdpator(this,R.layout.prem_layout,Arr);
+        // Premadpater2 pd2 = new Premadpater2(this,R.layout.prem_layout2,Arr);
+        // listView.setAdapter(pd2);
+
+
     }
 }
