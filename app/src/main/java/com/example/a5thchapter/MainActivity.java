@@ -12,10 +12,12 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
 
     ListView listView;
+    String arr[] = {"Prem","hello","chetan","Spoorthi"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         listView = findViewById(R.id.ListView);
+
     }
 }
