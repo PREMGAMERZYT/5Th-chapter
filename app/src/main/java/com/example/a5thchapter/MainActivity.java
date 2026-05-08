@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
     ListView listView;
 
-    //this array is data store
+    //this array is data source
     String arr[] = {"Prem","hello","chetan","Spoorthi"};
 
     @Override
