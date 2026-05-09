@@ -25,7 +25,9 @@ public class MainActivity extends AppCompatActivity {
 
 
         // user and deveoper friendly
-
+        // Optimized to some extends
+        // Easy to unstormized
+        // simple list can be created in few lines of code
         // using out in built adpater
         // ArrayAdapter ad = new ArrayAdapter(this, android.R.layout.simple_list_item_1,arr);
         // listView.setAdapter(ad);
