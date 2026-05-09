@@ -15,10 +15,20 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.418"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.094">
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="262dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:scaleX="1"
+            android:scaleY="1"
+            app:srcCompat="@drawable/natural" />
 
         <TextView
             android:id="@+id/textView"
